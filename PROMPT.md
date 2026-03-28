@@ -7,7 +7,6 @@ RULES:
 
 TASK:
 Parse logs and extract:
-
 1. All attacker IPs
 2. Timestamps of activity
 3. Username/password attempts + success/fail
@@ -29,12 +28,12 @@ OUTPUT FORMAT:
 
 # ATTACKERS
 For each IP:
-IP:
-Sessions:
-Auth attempts:
-Success:
-Commands:
-Behavior:
+- IP:
+- Sessions:
+- Auth attempts:
+- Success:
+- Commands:
+- Behavior:
 
 # TIMELINE
 Key events in order (short)
@@ -43,10 +42,15 @@ Key events in order (short)
 Unique commands grouped:
 - Recon
 - Download/Execution
-- System changes
+- Persistence/Backdoor
+- System Changes
 
 # IOCs
-IPs, usernames, passwords, URLs/files
+- IPs:
+- Usernames:
+- Passwords:
+- URLs/Files:
+- SSH Keys:
 
 # ASSESSMENT
 Risk level + 2–3 line justification
