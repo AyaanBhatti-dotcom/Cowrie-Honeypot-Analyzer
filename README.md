@@ -1,6 +1,6 @@
 ## Cowrie Honeypot — SSH Attack Analysis
 
-![Honeypot Analysis](https://github.com/user-attachments/assets/ca70f613-1e6b-446a-bada-eb8530cde14d)
+<img width="1079" height="411" alt="Screenshot 2026-04-09 at 12 04 24 PM" src="https://github.com/user-attachments/assets/9769fac1-e38a-4524-a9b5-dd1de17f6133" />
 
 ![Platform](https://img.shields.io/badge/Honeypot-Cowrie-blue)
 ![Cloud](https://img.shields.io/badge/Cloud-DigitalOcean-0080FF?logo=digitalocean)
